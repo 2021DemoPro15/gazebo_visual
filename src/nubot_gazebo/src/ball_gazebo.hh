@@ -3,6 +3,9 @@
 
 #include <boost/bind.hpp>
 #include <gazebo/gazebo.hh>             // the core gazebo header files, including gazebo/math/gzmath.hh
+#include <ignition/math/Vector3.hh> // for math::Vector
+#include <ignition/math/Pose3.hh> // for math::Pose
+#include <ignition/math/Quaternion.hh> // for math::Quaternion
 #include <gazebo/physics/physics.hh>
 #include <gazebo/common/common.hh>
 // #include <gazebo/transport/TransportTypes.hh>
